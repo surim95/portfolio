@@ -1,33 +1,36 @@
 header {
-    z-index: 900;
-    position: fixed; left: 0; top: 0;
-    width: 100%; height: 100px;
-    background: yellow;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  z-index: 900;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-header nav{}
-header nav .gnb{
-    display: flex;
-    margin-left: 70px;
+header nav {
 }
-header nav .gnb li{
-    margin-right: 52px;
+header nav .gnb {
+  display: flex;
+  margin-left: 70px;
 }
-header nav .gnb li:last-child{
-    margin-right: 0;
+header nav .gnb li {
+  margin-right: 52px;
 }
-header nav .gnb li.active > a{
-    color: #004030;
+header nav .gnb li:last-child {
+  margin-right: 0;
 }
-header nav .gnb li > a{
-    font-size: 1.375rem;
-    color: #DCD0A8;
+header nav .gnb li.active > a {
+  color: #004030;
 }
-header > p{
-    font-size: 1.375rem;
-    font-weight: 600;
-    margin-right: 66px;
-    color: #004030;
+header nav .gnb li > a {
+  font-size: 1.375rem;
+  color: #dcd0a8;
+}
+header > p {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-right: 66px;
+  color: #004030;
 }

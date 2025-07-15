@@ -1,4 +1,65 @@
-body{max-width: 1920px;}
+#total_wrap {
+}
+#total_wrap .swiper-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  height: 100vh;
+  background: url(../images/main.jpg) center / cover;
+}
+
+.profile,
+.webdesign,
+.graphicdesign {
+  height: 100vh;
+  background: url(../images/main_bg.jpg) center / cover;
+}
+
 .profile {
-    background: url(../images/main.jpg) center / cover;
+}
+.profile .wrap {
+}
+.profile .wrap > p {
+}
+.profile .wrap > p em {
+}
+.profile .wrap .contents {
+}
+.profile .wrap .contents .left_wrap {
+  display: flex;
+}
+.profile .wrap .contents .left_wrap .picture {
+  margin-right: 66px;
+}
+.profile .wrap .contents .left_wrap .picture p:nth-child(1) {
+  width: 210px;
+}
+.profile .wrap .contents .left_wrap .picture p:nth-child(1) img {
+  width: 100%;
+  border-radius: 8px;
+}
+.profile .wrap .contents .left_wrap .picture p:nth-child(2) {
+  font-size: 0.75rem;
+  color: #004030;
+}
+.profile .wrap .contents .left_wrap .profile_com {
+}
+.profile .wrap .contents .left_wrap .profile_com h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #004030;
+}
+.profile .wrap .contents .left_wrap .profile_com > ul {
+}
+.profile .wrap .contents .left_wrap .profile_com > ul li {
+  display: flex;
+}
+.profile .wrap .contents .left_wrap .profile_com > ul li h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #4a9782;
+}
+.profile .wrap .contents .left_wrap .profile_com > ul li h3 p {
 }
