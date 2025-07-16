@@ -97,6 +97,12 @@
   font-size: 1.125rem;
   color: #004030;
 }
+.about a {
+  width: 255px;
+  line-height: 1.2;
+  font-size: 1.125rem;
+  color: #004030;
+}
 .profile .wrap .contents .mid_wrap {
   margin-left: 130px;
 }
