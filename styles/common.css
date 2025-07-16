@@ -25,10 +25,10 @@ header nav .gnb li {
 header nav .gnb li:last-child {
   margin-right: 0;
 }
-header nav .gnb li.active > a {
+header nav .gnb li.active > button {
   color: #004030;
 }
-header nav .gnb li > a {
+header nav .gnb li > button {
   font-size: 1.375rem;
   color: #dcd0a8;
 }

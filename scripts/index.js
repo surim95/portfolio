@@ -8,5 +8,3 @@ gnbLi.forEach((gnbText) => {
     gnbText.classList.add("active");
   });
 });
-
-
