@@ -1,11 +1,15 @@
+const header = document.querySelector("header");
 const wrap = new Swiper("#total_wrap", {
   direction: "vertical",
   mousewheel: true,
+  on: {
+    slideChange: function () {
+      const i = this.activeIndex;
+      gnbLi.forEach((gnbRemove) => gnbRemove.classList.remove("active"));
+      gnbLi[i].classList.add("active");
+    },
+  },
 });
-
-function move(i) {
-  wrap.slideTo(i, 1000, false);
-}
 
 const webDesign = new Swiper(".web_slide", {
   /* autoplay:{delay:2000,}, */

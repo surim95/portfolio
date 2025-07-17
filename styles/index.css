@@ -62,7 +62,7 @@
   margin-right: 66px;
 }
 .profile .wrap .contents .left_wrap .picture p:nth-child(1) {
-  margin: 0 0 10px 56px;
+  margin: 0 0 6px 56px;
   width: 210px;
 }
 .profile .wrap .contents .left_wrap .picture p:nth-child(1) img {
@@ -204,7 +204,7 @@
 }
 
 .webdesign {
-  padding-top: 130px;
+  padding-top: 150px;
   position: relative;
 }
 .webdesign .web_slide {
@@ -219,7 +219,7 @@
   position: absolute;
   z-index: -4;
   left: 49%;
-  top: 150px;
+  top: 170px;
   transform: translateX(-50%);
 }
 .webdesign .web_slide .swiper-wrapper {
@@ -264,7 +264,7 @@
 }
 .webdesign .web_slide .swiper-wrapper .swiper-slide .bottom_container {
   display: flex;
-  padding: 0 0 77px 50px;
+  padding: 0 0 77px 100px;
 }
 .webdesign
   .web_slide
@@ -367,10 +367,9 @@
   div
   p {
   width: 138px;
-  font-weight: 500;
   padding: 6px 0;
   text-align: center;
-  border-bottom: 2px solid #004030;
+  border-bottom: 1px solid #004030;
   margin-right: 16px;
 }
 .webdesign
@@ -399,33 +398,13 @@
   .bottom_container
   .btn_wrap
   > a {
-  font-size: 1.4rem;
+  font-size: 1.125rem;
   font-weight: 500;
   padding: 6px 18px;
   border-radius: 2px;
   border: 1px solid #004030;
   background: #fff9e5;
   margin-right: 24px;
-  color: #004030;
-}
-.webdesign
-  .web_slide
-  .swiper-wrapper
-  .swiper-slide
-  .bottom_container
-  .btn_wrap
-  > a:first-child {
-  background: #004030;
-  color: #fff9e5;
-}
-.webdesign
-  .web_slide
-  .swiper-wrapper
-  .swiper-slide
-  .bottom_container
-  .btn_wrap
-  > a:first-child:hover {
-  background: #fff9e5;
   color: #004030;
 }
 .webdesign
@@ -507,4 +486,32 @@
 
 .thanks {
   background: #004030;
+  padding-top: 35vh;
+}
+.thanks .thanks_wrap {
+  margin: 0 auto;
+}
+.thanks .thanks_wrap h2 {
+  font-family: "BookkMyungjo-Bd";
+  font-size: 3rem;
+  color: #fff9e5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.thanks .thanks_wrap p {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #fff9e5;
+  text-align: center;
+}
+.thanks .thanks_wrap p:nth-child(3) {
+  margin-top: 40px;
+}
+.thanks .thanks_wrap p:nth-child(3) img {
+  width: 160px;
+  border-radius: 20px;
+}
+.thanks .thanks_wrap p:nth-child(4) {
+  margin-top: 40px;
+  font-size: 0.75rem;
 }
