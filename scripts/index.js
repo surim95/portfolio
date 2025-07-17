@@ -49,4 +49,5 @@ for (let i of longDesign) {
 
 popupBg.addEventListener("click", () => {
   popupBg.style.display = "none";
+  wrap.mousewheel.enable();
 });
