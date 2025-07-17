@@ -26,18 +26,22 @@ const webDesign = new Swiper(".web_slide", {
 
 /* graphic design swiper */
 const bannerSlide = new Swiper(".banner_container", {
+  autoplay: { delay: 0, disableOnInteraction: false },
+  speed: 4000,
   slidesPerView: "auto",
   loop: true,
 });
 
 const posterSlide = new Swiper(".poster_container", {
+  autoplay: { delay: 0, disableOnInteraction: false },
+  speed: 4000,
   slidesPerView: "auto",
   loop: true,
 });
 
 /* longPoster swiper */
 const longPosterSlide = new Swiper(".long_design", {
-  /* autoplay: { delay: 2000 }, */
+  autoplay: { delay: 2000 },
   loop: true,
   slidesPerView: 1,
 });

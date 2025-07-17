@@ -65,7 +65,7 @@
   margin: 0 0 6px 56px;
   width: 210px;
 }
-.profile .wrap .contents .left_wrap .picture p:nth-child(1) img {
+.profile .wrap .contents .left_wrap .picture p:nth-child(1) > img {
   width: 100%;
   border-radius: 8px;
   border: 3px solid #004030;
@@ -135,7 +135,7 @@
 .skills .skill_li > li:last-child {
   margin: 0 0 12px 0;
 }
-.skills .skill_li > li img {
+.skills .skill_li > li > img {
   width: 60px;
   height: 60px;
   margin-bottom: 6px;
@@ -242,7 +242,7 @@
   left: 0;
   top: 0;
 }
-.webdesign .web_slide .swiper-wrapper .swiper-slide .title p img {
+.webdesign .web_slide .swiper-wrapper .swiper-slide .title p > img {
 }
 @font-face {
   font-family: "BookkMyungjo-Bd";
@@ -283,7 +283,7 @@
   .swiper-slide
   .bottom_container
   .thumnail
-  img {
+  > img {
 }
 .webdesign
   .web_slide
@@ -473,7 +473,7 @@
   left: 0;
   top: 0;
 }
-.graphicdesign .graphic_container .left_container .graphic_title p img {
+.graphicdesign .graphic_container .left_container .graphic_title p > img {
 }
 .graphicdesign .graphic_container .left_container .graphic_title h2 {
   position: absolute;
@@ -510,6 +510,7 @@
   .design_wrap
   .banner_container
   .swiper-wrapper {
+  transition-timing-function: linear;
 }
 .graphicdesign
   .graphic_container
@@ -529,7 +530,7 @@
   .banner_container
   .swiper-wrapper
   .swiper-slide
-  img {
+  > img {
 }
 .graphicdesign
   .graphic_container
@@ -546,6 +547,7 @@
   .design_wrap
   .poster_container
   .swiper-wrapper {
+  transition-timing-function: linear;
 }
 .graphicdesign
   .graphic_container
@@ -565,7 +567,7 @@
   .poster_container
   .swiper-wrapper
   .swiper-slide
-  img {
+  > img {
   width: 100%;
 }
 .graphicdesign
@@ -605,7 +607,7 @@
   .long_design
   .swiper-wrapper
   .swiper-slide
-  img {
+  > img {
   width: 100%;
 }
 .graphicdesign
@@ -640,11 +642,33 @@
 .thanks .thanks_wrap p:nth-child(3) {
   margin-top: 40px;
 }
-.thanks .thanks_wrap p:nth-child(3) img {
+.thanks .thanks_wrap p:nth-child(3) > img {
   width: 160px;
   border-radius: 20px;
 }
 .thanks .thanks_wrap p:nth-child(4) {
   margin-top: 40px;
   font-size: 0.75rem;
+}
+
+/* 팝업 */
+.popup_bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+}
+.popup_bg .contents {
+  width: 700px;
+  height: 90vh;
+  overflow: auto;
+  margin: 0 auto;
+}
+.popup_bg .contents > img {
+  width: 100%;
 }
