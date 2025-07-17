@@ -519,7 +519,7 @@
   .banner_container
   .swiper-wrapper
   .swiper-slide {
-  width: 400px;
+  width: 420px;
   background: blue;
   margin-right: 10px;
 }
@@ -531,6 +531,7 @@
   .swiper-wrapper
   .swiper-slide
   > img {
+  width: 100%;
 }
 .graphicdesign
   .graphic_container
