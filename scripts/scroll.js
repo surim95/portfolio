@@ -41,7 +41,8 @@ const posterSlide = new Swiper(".poster_container", {
 
 /* longPoster swiper */
 const longPosterSlide = new Swiper(".long_design", {
+  effect:'fade',
+  slidesPerView:'1',
   autoplay: { delay: 2000 },
   loop: true,
-  slidesPerView: 1,
 });

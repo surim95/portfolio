@@ -510,6 +510,7 @@
   .design_wrap
   .banner_container
   .swiper-wrapper {
+    width: 420px;
   transition-timing-function: linear;
 }
 .graphicdesign
@@ -519,8 +520,6 @@
   .banner_container
   .swiper-wrapper
   .swiper-slide {
-  width: 420px;
-  background: blue;
   margin-right: 10px;
 }
 .graphicdesign
@@ -532,13 +531,14 @@
   .swiper-slide
   > img {
   width: 100%;
+  transform-origin: center center;
 }
 .graphicdesign
   .graphic_container
   .left_container
   .design_wrap
   .poster_container {
-  margin-botton: 20px;
+  margin-bottom: 20px;
   width: 100%;
   height: 300px;
 }
@@ -548,7 +548,8 @@
   .design_wrap
   .poster_container
   .swiper-wrapper {
-  transition-timing-function: linear;
+    width: 225px;
+    transition-timing-function: linear;
 }
 .graphicdesign
   .graphic_container
@@ -557,8 +558,6 @@
   .poster_container
   .swiper-wrapper
   .swiper-slide {
-  width: 225px;
-  background: blue;
   margin-right: 10px;
 }
 .graphicdesign
@@ -570,6 +569,7 @@
   .swiper-slide
   > img {
   width: 100%;
+  transform-origin: center center;
 }
 .graphicdesign
   .graphic_container
@@ -577,15 +577,14 @@
   .design_wrap
   .poster_container
   .swiper-wrapper
-  .swiper-slide:hover,
+  .swiper-slide img:hover,
 .graphicdesign
   .graphic_container
   .left_container
   .design_wrap
   .banner_container
   .swiper-wrapper
-  .swiper-slide:hover {
-  transform-origin: center center;
+  .swiper-slide img:hover {
   transform: rotate(4deg);
 }
 
@@ -599,8 +598,7 @@
   bottom: 0;
   border-radius: 12px;
 }
-.graphicdesign .graphic_container .long_design .swiper-wrapper {
-}
+.graphicdesign .graphic_container .long_design .swiper-wrapper {}
 .graphicdesign .graphic_container .long_design .swiper-wrapper .swiper-slide {
 }
 .graphicdesign
@@ -610,16 +608,17 @@
   .swiper-slide
   > img {
   width: 100%;
+  transform-origin: center center;
 }
 .graphicdesign
   .graphic_container
   .long_design
   .swiper-wrapper
-  .swiper-slide:hover {
-  transform-origin: center center;
+  .swiper-slide
+  > img:hover {
+  width: 100%;
   transform: rotate(4deg);
 }
-
 .thanks {
   background: #004030;
   padding-top: 35vh;
