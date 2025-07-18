@@ -276,6 +276,9 @@
   height: 430px;
   background: #aaa;
   margin-right: 60px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #004030;
 }
 .webdesign
   .web_slide
@@ -284,6 +287,8 @@
   .bottom_container
   .thumnail
   > img {
+    width: 100%;
+    position: relative; transform: translateY(-10%);
 }
 .webdesign
   .web_slide

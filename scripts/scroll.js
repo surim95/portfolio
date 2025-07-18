@@ -14,7 +14,8 @@ const wrap = new Swiper("#total_wrap", {
 });
 
 const webDesign = new Swiper(".web_slide", {
-  /* autoplay:{delay:2000,}, */
+  autoplay:{delay:5000,},
+  effect:'fade',
   centeredSlides: true,
   slidesPerView: 1,
   loop: true,
