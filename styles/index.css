@@ -287,8 +287,9 @@
   .bottom_container
   .thumnail
   > img {
-    width: 100%;
-    position: relative; transform: translateY(-10%);
+  width: 100%;
+  position: relative;
+  transform: translateY(-10%);
 }
 .webdesign
   .web_slide
@@ -515,7 +516,7 @@
   .design_wrap
   .banner_container
   .swiper-wrapper {
-    width: 420px;
+  width: 420px;
   transition-timing-function: linear;
 }
 .graphicdesign
@@ -553,8 +554,8 @@
   .design_wrap
   .poster_container
   .swiper-wrapper {
-    width: 225px;
-    transition-timing-function: linear;
+  width: 225px;
+  transition-timing-function: linear;
 }
 .graphicdesign
   .graphic_container
@@ -582,14 +583,16 @@
   .design_wrap
   .poster_container
   .swiper-wrapper
-  .swiper-slide img:hover,
+  .swiper-slide
+  img:hover,
 .graphicdesign
   .graphic_container
   .left_container
   .design_wrap
   .banner_container
   .swiper-wrapper
-  .swiper-slide img:hover {
+  .swiper-slide
+  img:hover {
   transform: rotate(4deg);
 }
 
@@ -603,7 +606,8 @@
   bottom: 0;
   border-radius: 12px;
 }
-.graphicdesign .graphic_container .long_design .swiper-wrapper {}
+.graphicdesign .graphic_container .long_design .swiper-wrapper {
+}
 .graphicdesign .graphic_container .long_design .swiper-wrapper .swiper-slide {
 }
 .graphicdesign
