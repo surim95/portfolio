@@ -21,6 +21,7 @@ const posterDesign = document.querySelectorAll(
 const longDesign = document.querySelectorAll(
   ".long_design .swiper-wrapper .swiper-slide img"
 );
+const popupContents = document.querySelector('.popup_bg .contents');
 // console.log(popupBg, bannerDesign, posterDesign, longDesign);
 
 popupBg.style.display = "none";
@@ -30,6 +31,7 @@ for (let i of bannerDesign) {
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
+    popupContents.style.height = '30vh';
   });
 }
 for (let i of posterDesign) {
@@ -37,6 +39,7 @@ for (let i of posterDesign) {
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
+    popupContents.style.height = '90vh';
   });
 }
 for (let i of longDesign) {
@@ -44,6 +47,7 @@ for (let i of longDesign) {
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
+    popupContents.style.height = '90vh';
   });
 }
 
