@@ -31,7 +31,7 @@ for (let i of bannerDesign) {
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
-    popupContents.style.height = '30vh';
+    popupContents.style.height = '34vh';
   });
 }
 for (let i of posterDesign) {
