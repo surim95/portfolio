@@ -28,29 +28,29 @@ popupBg.style.display = "none";
 
 for (let i of bannerDesign) {
   i.addEventListener("click", () => {
+    popupContents.scrollTo(0,0);
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
     popupContents.style.height = '45vh';
-    popupContents.scrollTo(0,0);
   });
 }
 for (let i of posterDesign) {
   i.addEventListener("click", () => {
+    popupContents.scrollTo(0,0);
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
     popupContents.style.height = '90vh';
-    popupContents.scrollTo(0,0);
   });
 }
 for (let i of longDesign) {
   i.addEventListener("click", () => {
+    popupContents.scrollTo(0,0);
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
     popupContents.style.height = '90vh';
-    popupContents.scrollTo(0,0);
   });
 }
 
