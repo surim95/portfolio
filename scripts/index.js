@@ -31,7 +31,8 @@ for (let i of bannerDesign) {
     popupBg.style.display = "flex";
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
-    popupContents.style.height = '34vh';
+    popupContents.style.height = '45vh';
+    popupContents.scrollTo(0,0);
   });
 }
 for (let i of posterDesign) {
@@ -40,6 +41,7 @@ for (let i of posterDesign) {
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
     popupContents.style.height = '90vh';
+    popupContents.scrollTo(0,0);
   });
 }
 for (let i of longDesign) {
@@ -48,6 +50,7 @@ for (let i of longDesign) {
     popupBg.children[0].children[0].src = i.src;
     wrap.mousewheel.disable();
     popupContents.style.height = '90vh';
+    popupContents.scrollTo(0,0);
   });
 }
 
